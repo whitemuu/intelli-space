@@ -75,3 +75,15 @@ vnoremap <leader>wV    <Esc>:action SplitVertically<CR>:action VimWindowRight<CR
 " Focus next window
 nnoremap <leader>ww    :action VimWindowNext<CR>
 vnoremap <leader>ww    <Esc>:action VimWindowNext<CR>
+
+" ---------------------------------------my
+
+" maven
+nnoremap <leader>wm    :action ActivateMavenToolWindow<CR>
+vnoremap <leader>wm    <Esc>:action ActivateMavenToolWindow<CR>
+" TODO
+nnoremap <leader>wt    :action ActivateTODOToolWindow<CR>
+vnoremap <leader>wt    <Esc>:action ActivateTODOToolWindow<CR>
+
+nnoremap <leader>we    :action ActivateEventLogToolWindow<CR>
+vnoremap <leader>we    <Esc>:action ActivateEventLogToolWindow<CR>

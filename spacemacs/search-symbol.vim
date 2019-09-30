@@ -17,5 +17,9 @@ nnoremap <leader>sl    :action FindInPath<CR>
 vnoremap <leader>sl    <Esc>:action FindInPath<CR>
 
 " Search everywhere
-nnoremap <leader>ss    :action SearchEverywhere<CR>
-vnoremap <leader>ss    <Esc>:action SearchEverywhere<CR>
+" nnoremap <leader>ss    :action SearchEverywhere<CR>
+" vnoremap <leader>ss    <Esc>:action SearchEverywhere<CR>
+
+" swoop
+nnoremap <leader>ss    :action FindInPath<CR>
+vnoremap <leader>ss    <Esc>:action FindInPath<CR>

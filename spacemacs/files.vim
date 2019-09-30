@@ -46,5 +46,11 @@ nnoremap <leader>ft    :action ActivateProjectToolWindow<CR>
 vnoremap <leader>ft    <Esc>:action ActivateProjectToolWindow<CR>
 
 " Copy file path
-nnoremap <leader>fyy    :action CopyPaths<CR>
-vnoremap <leader>fyy    <Esc>:action CopyPaths<CR>
+nnoremap <leader>fy    :action CopyPaths<CR>
+vnoremap <leader>fy    <Esc>:action CopyPaths<CR>
+
+nnoremap <leader>fY    :action Tool_External Tools_copy-org-link<CR>
+vnoremap <leader>fY    <Esc>:action Tool_External Tools_copy-org-link<CR>
+
+nnoremap <leader>fo    :action Tool_External Tools_Open with Default<CR>
+vnoremap <leader>fo    <Esc>:action CopyPaths<CR>

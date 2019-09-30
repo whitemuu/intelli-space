@@ -13,3 +13,7 @@ vnoremap <leader>tn    <Esc>:action EditorGutterToggleGlobalLineNumbers<CR>
 " Toggle Show Whitespaces
 nnoremap <leader>tw    :action EditorToggleShowWhitespaces<CR>
 vnoremap <leader>tw    <Esc>:action EditorToggleShowWhitespaces<CR>
+
+" Toggle distraction free mode
+nnoremap <leader>tt    :action ToggleDistractionFreeMode<CR>
+vnoremap <leader>tt    <Esc>:action ToggleDistractionFreeMode<CR>
