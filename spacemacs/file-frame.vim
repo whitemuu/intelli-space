@@ -54,3 +54,8 @@ vnoremap <leader>fY    <Esc>:action Tool_External Tools_copy-org-link<CR>
 
 nnoremap <leader>fo    :action Tool_External Tools_Open with Default<CR>
 vnoremap <leader>fo    <Esc>:action CopyPaths<CR>
+
+" ------------------------------------------------------------------------frame
+" Focus next project
+nnoremap <leader>Fo    :action NextProjectWindow<CR>
+vnoremap <leader>Fo    <Esc>:action NextProjectWindow<CR>

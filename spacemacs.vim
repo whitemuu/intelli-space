@@ -38,19 +38,18 @@ map <M-t> :action ToggleDistractionFreeMode<CR>
 " ----------------------------------------------------------------------- my settings end
 
 " Key bindings
+source ~/intelli-space/spacemacs/MISC.vim
+
 source ~/intelli-space/spacemacs/applications.vim
 source ~/intelli-space/spacemacs/buffers.vim
-source ~/intelli-space/spacemacs/colors.vim
-source ~/intelli-space/spacemacs/compile-comments.vim
+source ~/intelli-space/spacemacs/color-compile-comment.vim
 source ~/intelli-space/spacemacs/errors.vim
-source ~/intelli-space/spacemacs/files.vim
-source ~/intelli-space/spacemacs/frame.vim
+source ~/intelli-space/spacemacs/file-frame.vim
 source ~/intelli-space/spacemacs/git-vcs.vim
 source ~/intelli-space/spacemacs/help.vim
 source ~/intelli-space/spacemacs/insertion.vim
 source ~/intelli-space/spacemacs/jump-join-split.vim
 source ~/intelli-space/spacemacs/leader.vim
-source ~/intelli-space/spacemacs/misc.vim
 source ~/intelli-space/spacemacs/narrow-numbers.vim
 source ~/intelli-space/spacemacs/projects.vim
 source ~/intelli-space/spacemacs/quit.vim
